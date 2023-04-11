@@ -1,1 +1,30 @@
+:root {
+    --preto : #000000;
+    --azul : #26366B;
+    --vermelho : #8C1C1C;
+    --cinza : #99AABF;
+    --verde : #5FF538;
+    --bege : #FFFFF0;
+}
 
+.cabecalho {
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--verde);
+    font-size: 31px;
+    font-weight: bold;
+    text-shadow: 9px 5px 10px #fffb00;
+    transition: 0.5s;
+}
