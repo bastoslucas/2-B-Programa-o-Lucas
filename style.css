@@ -2,13 +2,18 @@
     --preto : #000000;
     --azul : #26366B;
     --vermelho : #8C1C1C;
-    --cinza : #99AABF;
-    --verde : #5FF538;
-    --bege : #FFFFF0;
+    --cinza : #c8d2db;
+    --verde : #daff83;
+    --bege : #f3f3ab;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho {
-    background-color: var(--azul);
+    background-color: var(--bege);
     display: flex;
     justify-content: space-between;
 }
@@ -17,14 +22,19 @@
     width: 10%;
 }
 
+.principal{
+    background-color: var(--verde);
+    background-image: linear-gradient(var(--verde),var(--bege));
+}
+
 .menu-item {
     display: inline-block;
     padding: 25px;
     margin-top: 30px;
     font-size: 20px;
-    color: var(--verde);
+    color: var(--preto);
     font-size: 31px;
     font-weight: bold;
-    text-shadow: 9px 5px 10px #fffb00;
+    text-shadow: 9px 5px 10px #ffd000;
     transition: 0.5s;
 }
