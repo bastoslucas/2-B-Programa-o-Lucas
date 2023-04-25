@@ -13,7 +13,7 @@
 }
 
 .cabecalho {
-    background-color: var(--bege);
+    background-color: var(--verde);
     display: flex;
     justify-content: space-between;
 }
@@ -25,6 +25,8 @@
 .principal{
     background-color: var(--verde);
     background-image: linear-gradient(var(--verde),var(--bege));
+    display: flex;
+    justify-content: flex-start;
 }
 
 .menu-item {
@@ -38,3 +40,21 @@
     text-shadow: 9px 5px 10px #ffd000;
     transition: 0.5s;
 }
+.principal__titulo{
+    color: #000000;
+    font-size: 64px;
+    padding: 1px;
+    text-align: center;
+    margin: 20px;
+    width: 500px;
+    
+
+}
+.principal-texto{
+    padding: 20px;
+    margin: 50px;
+    
+}
+
+
+
